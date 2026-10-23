@@ -18,6 +18,21 @@ automation:
       url: "https://httpbin.org/get"
       timeout_seconds: 5
 
+youtube:
+  default_niche: "space"
+  output_dir: "output/shorts"
+  dry_run_upload: true
+  voice:
+    name: "en-US-ChristopherNeural"
+    rate: "+0%"
+    pitch: "+0Hz"
+  video:
+    width: 1080
+    height: 1920
+    fps: 30
+    subtitle_font_size: 56
+    subtitle_color: "yellow"
+
 notifications:
   webhook_url: ""
   notify_on_failure: true
